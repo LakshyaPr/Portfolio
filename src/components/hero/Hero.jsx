@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
 import hi from "../../assets/hi.png";
-import CV from "../../components/hero/resume.pdf";
+import CV from "../../components/hero/Resume.pdf";
 import img from "../../assets/meo.png";
 export default function Hero() {
   return (
