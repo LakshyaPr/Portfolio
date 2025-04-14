@@ -4,7 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import urls from "../../assets/urls.png";
 import echoes from "../../assets/echoes.png";
-import wander from "../../assets/wander.png";
+import wander from "../../assets/wander1.png";
+import quizb from "../../assets/quizb1.png";
 export default function Projects() {
   const listProjects = [
     {
@@ -31,6 +32,15 @@ export default function Projects() {
       github: "https://github.com/LakshyaPr/Linkly-Url-Shortner",
       live: "",
     },
+    {
+      id:4,
+      image: quizb,
+      title: "Quizzbot",
+      description:"AI based quiz generator",
+      github : "https://github.com/LakshyaPr/QuizzBot", 
+      live :"",
+
+    }
     
   ];
   const settings = {
@@ -75,7 +85,7 @@ export default function Projects() {
         {project.description}
       </p>
       <div className="flex gap-4">
-        {(project.id !== 3) && <a
+        {(project.id <3 ) && <a
           href={project.live}
           target="_blank"
           rel="noopener noreferrer"

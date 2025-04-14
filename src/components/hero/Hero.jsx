@@ -39,9 +39,12 @@ export default function Hero() {
             <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-white">
               Hi! I am Lakshya Prabhakar
             </h1>
-            <h1 className="title-font sm:text-6xl text-4xl mb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-yellow-500 to-red-400">
-              FullStack Developer
-            </h1>
+            <h1 className="title-font sm:text-6xl text-4xl mb-4 font-bold text-transparent bg-clip-text 
+              bg-gradient-to-r from-orange-800 via-yellow-700 to-red-600 
+              sm:bg-gradient-to-r sm:from-orange-600 sm:via-yellow-500 sm:to-red-400">
+  FullStack Developer
+</h1>
+
             <br />
             <p className="mb-8 leading-relaxed pr-20 text-2xl">
             I’m a full-stack developer from New Delhi, India, currently in the pre-final year of my B.Tech in Information Technology at MSIT, Delhi. I also enjoy solving Data Structures and Algorithms problems.

@@ -3,6 +3,8 @@ import React from "react";
 export default function Footer() {
   const listNavbar = [
     { name: "Home", link: "#" },
+    { name: "Profiles", link: "#profiles" },
+
     { name: "Skills", link: "#skills" },
     { name: "Experience", link: "#experience" },
     { name: "Language", link: "#language" },
