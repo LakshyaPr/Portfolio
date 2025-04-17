@@ -29,7 +29,10 @@ export default function Experience() {
           data-aos-delay="400"
           className="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center "
         >
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-orange-500 ">
+          
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-transparent bg-clip-text 
+              bg-gradient-to-r from-orange-800 via-yellow-700 to-red-600 
+              sm:bg-gradient-to-r sm:from-orange-600 sm:via-yellow-500 sm:to-red-400">
             Experience
           </h1>
           

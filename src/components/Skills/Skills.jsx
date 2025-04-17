@@ -53,6 +53,7 @@ export default function Skills() {
                 alt=""
                 className="rounded-full w-24 h-24 object-cover"
               />
+              <p className="leading-relaxed text-base sm:text-xl pl-6">HTML</p>
             </li>
             <li className="lg:w-1/3 mb-4 w-1/2">
               <img
@@ -60,6 +61,7 @@ export default function Skills() {
                 alt=""
                 className="rounded-full w-24 h-24 object-cover"
               />
+              <p className="leading-relaxed text-base sm:text-xl pl-3">Javascript</p>
             </li>
             <li className="lg:w-1/3 mb-4 w-1/2">
               <img
@@ -67,6 +69,7 @@ export default function Skills() {
                 alt=""
                 className="rounded-full w-24 h-24 object-cover"
               />
+              <p className="leading-relaxed text-base sm:text-xl pl-6">ReactJs</p>
             </li>
             <li className="lg:w-1/3 mb-4 w-1/2">
               <img
@@ -74,6 +77,7 @@ export default function Skills() {
                 alt=""
                 className="rounded-full w-24 h-24 object-cover"
               />
+              <p className="leading-relaxed text-base sm:text-xl pl-4">NodeJs</p>
             </li>
             <li className="lg:w-1/3 mb-4 w-1/2">
               <img
@@ -81,6 +85,7 @@ export default function Skills() {
                 alt=""
                 className="rounded-full w-24 h-24 object-cover"
               />
+              <p className="leading-relaxed text-base sm:text-xl pl-4">MongoDB</p>
             </li>
             <li className="lg:w-1/3 mb-4 w-1/2">
               <img
@@ -88,6 +93,7 @@ export default function Skills() {
                 alt=""
                 className="rounded-full w-24 h-24 object-cover"
               />
+              <p className="leading-relaxed text-base sm:text-xl pl-4">MySQL</p>
             </li>
             <li className="lg:w-1/3 mb-4 w-1/2">
               <img
@@ -95,6 +101,7 @@ export default function Skills() {
                 alt=""
                 className="rounded-full w-24 h-24 object-cover"
               />
+              <p className="leading-relaxed text-base sm:text-xl pl-9">Git</p>
             </li>
             <li className="lg:w-1/3 mb-4 w-1/2">
               <img
@@ -102,6 +109,7 @@ export default function Skills() {
                 alt=""
                 className="rounded-full w-24 h-24 object-cover"
               />
+              <p className="leading-relaxed text-base sm:text-xl pl-4">Docker</p>
             </li>
             <li className="lg:w-1/3 mb-4 w-1/2">
               <img
@@ -109,6 +117,7 @@ export default function Skills() {
                 alt=""
                 className="rounded-full w-24 h-24 object-cover"
               />
+              <p className="leading-relaxed text-base sm:text-xl pl-7">C++</p>
             </li>
           </nav>
         </div>
