@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import CV from "../../components/hero/Resume.pdf";
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -33,6 +33,7 @@ export default function Navbar() {
             Lakshya Prabhakar
           </span>
         </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <nav className="md:ml-auto text-white text-base md:mr-auto flex flex-wrap items-center justify-center">
           {listNavbar.map((item, index) => (
             <a
@@ -45,8 +46,13 @@ export default function Navbar() {
           ))}
         </nav>
         <button className="inline-flex items-center py-1 px-7 focus:outline-none text-base text-white mt-4 md:mt-0 border border-white hover:border-yellow-300 hover:text-gray-900">
+        <a href={CV} download>Download resume</a>
+        </button>
+        &nbsp;
+        <button className="inline-flex items-center py-1 px-7 focus:outline-none text-base text-white mt-4 md:mt-0 border border-white hover:border-yellow-300 hover:text-gray-900">
           <a href="#contact">Contact me</a>
         </button>
+
       </div>
     </header>
   );
