@@ -81,7 +81,7 @@ export default function Projects() {
       <h2 className="tracking-widest text-xl title-font font-medium text-gray-400 mb-1">
         {project.title}
       </h2>
-      <p className="leading-relaxed mb-3">
+      <p className="leading-relaxed mb-3 ">
         {project.description}
       </p>
       <div className="flex gap-4">

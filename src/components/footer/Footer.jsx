@@ -11,7 +11,7 @@ export default function Footer() {
     { name: "Projects", link: "#projects" },
   ];
   return (
-    <footer className="bg-gray-700 rounded-lg shadow">
+    <footer className="  outline outline-2 outline-white bg-black ">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span className="text-ms text-gray-200 sm:text-center">
           © 2025{" "}

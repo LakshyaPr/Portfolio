@@ -15,7 +15,7 @@ export default function App() {
     });
   }, []);
   return (
-    <main className="bg-[#0d182e]">
+    <main className="bg-[#000000]">
       <Hero />
       <Profiles/>
       <Skills />

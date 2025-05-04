@@ -3,3 +3,16 @@
 html {
   scroll-behavior: smooth;
 }
+/* Make the dot itself white */
+.slick-dots li button {
+  background-color: white !important; /* Dot itself is white */
+  border-radius: 50%; /* Ensure it's circular */
+  width: 10px; /* Adjust the size of the dot if needed */
+  height: 10px; /* Adjust the size of the dot if needed */
+  opacity: 1 !important; /* Ensure full opacity for visibility */
+}
+
+/* Customize the active dot to stand out */
+.slick-dots li.slick-active button {
+  background-color: #ff8c00 !important;  /* You can change this to any color for the active dot */
+}
