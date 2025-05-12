@@ -14,7 +14,7 @@ export default function Projects() {
       title: "Echoes",
       description: "Full Stack SNS application",
       github: "https://github.com/LakshyaPr/Echoes",
-      live: "https://echoes-32t1.onrender.com/",
+      live: "https://echoes-production.up.railway.app/",
     },
     {
       id: 2,
