@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CV from "../../components/hero/Resume.pdf";
+import CV from "../../components/hero/Lakshya's Resume EY.pdf";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
