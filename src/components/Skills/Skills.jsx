@@ -34,11 +34,7 @@ export default function Skills() {
             data-aos-delay="600"
             className="leading-relaxed text-base sm:text-2xl"
           >
-            I’m proficient in C++, Python, Java, and JavaScript, with hands-on experience
-             in building full-stack applications using ReactJS, NodeJS, Express, and MongoDB.
-              I’m well-versed in MySQL, Git, Docker, and RESTful API development.
-               My strong foundation in DSA, OOP, system design, and operating systems
-                supports my problem-solving and software development skills.
+            I’ve worked on building backend systems and APIs using Node.js, Express, and MongoDB, focusing on performance and reliability. Alongside this, I’ve explored integrating ML models into real-world workflows and handling the data pipelines around them. I also spend time on DSA and system design to strengthen my problem-solving and engineering fundamentals.
           </p>
         </div>
         <div

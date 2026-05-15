@@ -6,37 +6,46 @@ import urls from "../../assets/urls.png";
 import echoes from "../../assets/echoes.png";
 import wander from "../../assets/wander1.png";
 import quizb from "../../assets/quizb1.png";
+import driver from "../../assets/driver.png";
 export default function Projects() {
   const listProjects = [
     {
       id: 1,
       image: echoes,
       title: "Echoes",
-      description: "Full Stack SNS application",
+      description: "Full Stack SNS application made in MERN stack with features like real time chat, post creation, liking and commenting on posts, following and unfollowing users, profile editing and many more.",
       github: "https://github.com/LakshyaPr/Echoes",
       live: "https://echoes-production.up.railway.app/",
     },
     {
       id: 2,
+      image: driver,
+      title: "Driver Inatttention Detection",
+      description: "A highly accurate and efficient driver inattention detection system using EfficientNet, designed to enhance road safety by identifying signs of drowsiness and distraction in real-time.",
+      github: "https://github.com/LakshyaPr/Real-Time-Driver-Inattention-Detection-and-Alert-Generation-System",
+      live: "",
+    },
+    {
+      id: 3,
       image: wander,
       title: "Rently",
-      description: "Full Stack Property listing application",
+      description: "Full Stack Property listing application made in MERN stack with features like user authentication, property listing, search and filter, booking and many more.",
       github: "https://github.com/LakshyaPr/RENTLY",
       live: "https://wanderlust-pret.onrender.com/",
     },
     {
-      id: 3,
+      id: 4,
       image: urls,
       title: "Linkly",
-      description: "Easy and efficient URL shortener with Admin Dashboard",
+      description: "Easy and efficient URL shortener with Admin Dashboard for link management and analytics, built using the MERN stack.",
       github: "https://github.com/LakshyaPr/Linkly-Url-Shortner",
       live: "",
     },
     {
-      id:4,
+      id:5,
       image: quizb,
       title: "Quizzbot",
-      description:"AI based quiz generator",
+      description:"AI based quiz generator that creates quizzes from any text input, utilizing NLP techniques to generate questions and answers, making learning interactive and engaging.",
       github : "https://github.com/LakshyaPr/QuizzBot", 
       live :"",
 
@@ -85,7 +94,7 @@ export default function Projects() {
         {project.description}
       </p>
       <div className="flex gap-4">
-        {(project.id <3 ) && <a
+        {(project.id === 1 || project.id === 3) && <a
           href={project.live}
           target="_blank"
           rel="noopener noreferrer"

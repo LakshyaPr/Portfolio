@@ -13,6 +13,7 @@ export default function Projects() {
       image: leetcode,
       title: "Leetcode",
       link: "https://leetcode.com/prablaksh007/" ,
+      description: "Solved 500+ problems\n 1629 Global Contest Rating\n Top 20%"
       
       
     },
@@ -21,6 +22,7 @@ export default function Projects() {
         image: codeforces,
         title: "Codeforces",
         link: "https://codeforces.com/profile/prabhakar.lakshya" ,
+        description: "Max rating : 941\nPupil\n\n"
         
     },
     {
@@ -28,6 +30,7 @@ export default function Projects() {
         image: github,
         title: "GitHub",
         link: "https://github.com/LakshyaPr" ,
+        description: "\n\n\n"
       
     },
   ];
@@ -67,7 +70,7 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 className="block cursor-pointer"
               >
-                <div className="h-full border-2 border-orange-400 shadow-[0_0_15px_rgba(255,165,0,0.7)] border-opacity-60 rounded-lg overflow-hidden hover:scale-[1.02] transition-transform duration-300">
+                <div className="h-full border-2 border-orange-400 shadow-[0_0_10px_rgba(255,165,0,0.5)] border-opacity-60 rounded-lg overflow-hidden hover:scale-[1.02] transition-transform duration-300">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -77,7 +80,9 @@ export default function Projects() {
                     <h2 className="tracking-widest text-xl title-font font-medium text-white-400 mb-1 text-center">
                       {project.title}
                     </h2>
-                    <p className="leading-relaxed mb-3">{project.description}</p>
+                    <p className="leading-relaxed mb-3 whitespace-pre-line text-center">
+                      {project.description}
+                    </p>
                   </div>
                 </div>
               </a>

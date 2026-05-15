@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
 import hi from "../../assets/hi.png";
-import CV from "../../components/hero/Lakshya's Resume EY.pdf";
-import img from "../../assets/meo.png";
+import CV from "../../components/hero/Lakshya_Prabhakar_Resume.pdf";
+import img from "../../assets/meoo.png";
 export default function Hero() {
   return (
     <div className="relative overflow-hidden min-h-[550px] sm:min-h-[660px] flex flex-col ">
@@ -42,12 +42,12 @@ export default function Hero() {
             <h1 className="title-font sm:text-6xl text-4xl mb-4 font-bold text-transparent bg-clip-text 
               bg-gradient-to-r from-orange-800 via-yellow-700 to-red-600 
               sm:bg-gradient-to-r sm:from-orange-600 sm:via-yellow-500 sm:to-red-400">
-  FullStack Developer
+  Software Engineer | Backend & AI-Driven Systems
 </h1>
 
             <br />
             <p className="mb-8 leading-relaxed pr-20 text-2xl">
-            I’m a full-stack developer from New Delhi, India, currently in the pre-final year of my B.Tech in Information Technology at MSIT, Delhi. I also enjoy solving Data Structures and Algorithms problems.
+            I design and build backend systems, APIs, and data pipelines for real-world applications.
             </p>
             <div className="flex justify-center">
             <a href={CV} target="_blank" rel="noopener noreferrer">
