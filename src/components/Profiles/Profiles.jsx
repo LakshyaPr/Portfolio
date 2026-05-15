@@ -22,7 +22,7 @@ export default function Projects() {
         image: codeforces,
         title: "Codeforces",
         link: "https://codeforces.com/profile/prabhakar.lakshya" ,
-        description: "Max rating : 941\nPupil\n\n"
+        description: "Max rating : 941\n\n\n"
         
     },
     {
